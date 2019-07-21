@@ -1,0 +1,146 @@
+{
+  "resource": "/demo",
+  "path": "/demo",
+  "httpMethod": "POST",
+  "headers": {
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept-Language": "en-US,en;q=0.9",
+    "CloudFront-Forwarded-Proto": "https",
+    "CloudFront-Is-Desktop-Viewer": "true",
+    "CloudFront-Is-Mobile-Viewer": "false",
+    "CloudFront-Is-SmartTV-Viewer": "false",
+    "CloudFront-Is-Tablet-Viewer": "false",
+    "CloudFront-Viewer-Country": "US",
+    "content-type": "application/json;charset=UTF-8",
+    "Host": "2o261nrn05.execute-api.us-east-1.amazonaws.com",
+    "origin": "http://localhost:8080",
+    "Referer": "http://localhost:8080/",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36",
+    "Via": "2.0 8e861a4da89d571983fa5de95bf017b9.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Id": "IXNGuQ8zUIIaH3Sjr_zw8lZeClBvJ0V6r2GF2m5eHNW6Y3ujMRVf3Q==",
+    "X-Amzn-Trace-Id": "Root=1-5cac60c0-620193a821d85cf86428ef58",
+    "X-Forwarded-For": "99.100.30.213, 52.46.60.79",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "multiValueHeaders": {
+    "Accept": [
+      "application/json, text/plain, */*"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Accept-Language": [
+      "en-US,en;q=0.9"
+    ],
+    "CloudFront-Forwarded-Proto": [
+      "https"
+    ],
+    "CloudFront-Is-Desktop-Viewer": [
+      "true"
+    ],
+    "CloudFront-Is-Mobile-Viewer": [
+      "false"
+    ],
+    "CloudFront-Is-SmartTV-Viewer": [
+      "false"
+    ],
+    "CloudFront-Is-Tablet-Viewer": [
+      "false"
+    ],
+    "CloudFront-Viewer-Country": [
+      "US"
+    ],
+    "content-type": [
+      "application/json;charset=UTF-8"
+    ],
+    "Host": [
+      "2o261nrn05.execute-api.us-east-1.amazonaws.com"
+    ],
+    "origin": [
+      "http://localhost:8080"
+    ],
+    "Referer": [
+      "http://localhost:8080/"
+    ],
+    "User-Agent": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+    ],
+    "Via": [
+      "2.0 8e861a4da89d571983fa5de95bf017b9.cloudfront.net (CloudFront)"
+    ],
+    "X-Amz-Cf-Id": [
+      "IXNGuQ8zUIIaH3Sjr_zw8lZeClBvJ0V6r2GF2m5eHNW6Y3ujMRVf3Q=="
+    ],
+    "X-Amzn-Trace-Id": [
+      "Root=1-5cac60c0-620193a821d85cf86428ef58"
+    ],
+    "X-Forwarded-For": [
+      "99.100.30.213, 52.46.60.79"
+    ],
+    "X-Forwarded-Port": [
+      "443"
+    ],
+    "X-Forwarded-Proto": [
+      "https"
+    ]
+  },
+  "queryStringParameters": {
+    "input1": "26",
+    "input2": "26",
+    "input3": "29",
+    "input4": "26",
+    "input5": "26"
+  },
+  "multiValueQueryStringParameters": {
+    "input1": [
+      "26"
+    ],
+    "input2": [
+      "26"
+    ],
+    "input3": [
+      "29"
+    ],
+    "input4": [
+      "26"
+    ],
+    "input5": [
+      "26"
+    ]
+  },
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "resourceId": "y94hlm",
+    "resourcePath": "/get-values",
+    "httpMethod": "POST",
+    "extendedRequestId": "X3QOGHbOIAMFSKw=",
+    "requestTime": "09/Apr/2019:09:07:12 +0000",
+    "path": "/api-demo/get-values",
+    "accountId": "714228501686",
+    "protocol": "HTTP/1.1",
+    "stage": "api-demo",
+    "domainPrefix": "2o261nrn05",
+    "requestTimeEpoch": 1554800832671,
+    "requestId": "dcc88343-5aa6-11e9-bdbd-078d0cb6cea5",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "sourceIp": "99.100.30.213",
+      "accessKey": null,
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36",
+      "user": null
+    },
+    "domainName": "2o261nrn05.execute-api.us-east-1.amazonaws.com",
+    "apiId": "2o261nrn05"
+  },
+  "body": "{\"post\":{\"post_content\":\"testing test test test\",\"post_title\":\"TEST POST\", \"post_status\":\"publish\"}}",
+  "isBase64Encoded": false
+}
