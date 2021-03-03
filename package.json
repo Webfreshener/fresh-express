@@ -26,7 +26,7 @@
     "graphql-tools": "^4.0.5",
     "lodash.union": "^4.6.0",
     "node-fetch": "^2.6.0",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "txpipe": "git+https://github.com/Webfreshener/TxPipe.git#v1.0.0",
     "uuid": "^3.3.2"
   },
